@@ -1,0 +1,31 @@
+{
+  "name": "@sheetbase/backend",
+  "version": "0.0.0",
+  "files": [
+    "src",
+    "!**/*.ts",
+    "**/*.d.ts"
+  ],
+  "scripts": {
+    "build": "sheetbase-server-scripts build",
+    "push": "sheetbase-server-scripts push",
+    "test": "tsc && nyc --cache false mocha test/**/*.js",
+    "lint": "gts lint"
+  },
+  "dependencies": {
+    "@sheetbase/server": "^3.0.7"
+  },
+  "devDependencies": {
+    "@sheetbase/server-scripts": "^3.0.5",
+    "@types/google-apps-script": "^1.0.16",
+    "@types/chai": "^4.2.13",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.11.8",
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "gts": "^3.0.1",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0",
+    "typescript": "^4.0.3"
+  }
+}

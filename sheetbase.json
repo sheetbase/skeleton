@@ -1,0 +1,16 @@
+{
+  "projectId": "[drive_folder_id]",
+  "configs": {
+    "backend": {},
+    "frontend": {
+      "backendUrl": "[backend_url]"
+    }
+  },
+  "configMaps": {
+    "backend": [],
+    "frontend": [
+      "backendUrl"
+    ]
+  },
+  "deployment": null
+}

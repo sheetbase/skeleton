@@ -1,0 +1,10 @@
+{
+  "name": "@sheetbase/frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "echo 'Build ...'",
+    "test": "echo 'Test ...'",
+    "lint": "echo 'Lint ...'"
+  },
+  "dependencies": {}
+}
